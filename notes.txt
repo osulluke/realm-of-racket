@@ -1,0 +1,11 @@
+Ok, so I've gotten myself up to chapter 5. I now remember why it has been
+difficult to get through this book previously. It's because they show you
+code-snippets without actually mentioning that there is a lot of missing 
+code in the sense of function definitions etc. The other thing, I REALLY 
+don't like is the seemingly DRASTIC increase in the amount of nested 
+function definition and recursion that is introduced almost out of the 
+blue. The book needs to have a more gradual ramping up of recursion in 
+order to be more accessible to readers who are new to the idea and
+syntax. So far, the book has been pretty easy-going, but chapter 4.5 is
+a divergence from that tack.
+
