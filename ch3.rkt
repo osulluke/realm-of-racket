@@ -1,4 +1,5 @@
 #lang racket
+(require rackunit)
 (define (square n)
   (* n n))
 
@@ -70,3 +71,10 @@ Hmm, there is likely another way.
 ;if you want racket to respond with an entire list, you can add the #:transparent
 ;option in the structure definition. Then, when an example of the structure is called
 ;racket will respond with all the data, as opposed to just a short-hand for it.
+
+;;The definition of a structure also builds a 'predicate function' for that structure
+; this will test whether or not a piece of data is of that type. They are referred to
+; as 'type predicates'. Every built-in form of data comes with its own type predicate
+; ...cool.
+(student? freshman1)
+(student? "am I a student")
