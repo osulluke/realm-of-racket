@@ -78,3 +78,5 @@ Hmm, there is likely another way.
 ; ...cool.
 (student? freshman1)
 (student? "am I a student")
+(check-equal? (add1 5) 7 "Numbers matter: 5+1 != 7")
+(check-equal? 6 7 "6 is not equal to 7")
